@@ -17,6 +17,5 @@ const readJson = async () => {
         alert('Hubo un error intentando leer la información de esta mascota');
         return;
     }
-    console.log(json);
     write(json);
 })();
