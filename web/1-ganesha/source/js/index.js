@@ -1,6 +1,6 @@
 const readJson = async () => {
     try {
-        const response = await fetch('source/js/data.json');
+        const response = await fetch('./source/js/data.json');
         if (!response.ok) {
             console.error(`HTTP error! status: ${response.status}`);
             return null;
@@ -17,5 +17,6 @@ const readJson = async () => {
         alert('Hubo un error intentando leer la información de esta mascota');
         return;
     }
+    console.log(json);
     write(json);
 })();
