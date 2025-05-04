@@ -65,5 +65,10 @@
     });
     document.addEventListener('dragstart', e => {
         e.preventDefault();
+    }); 
+    document.addEventListener('keydown', e => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'u') {
+            e.preventDefault();
+        }
     });
 })();
