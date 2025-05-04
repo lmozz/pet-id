@@ -25,7 +25,6 @@ const curiosity = [
     'Para dormir, si hace frío me gusta el sofá, pero si hace calor ¡abajo de la cama es lo mejor! ¡Fresquito!',
     '¡Aunque rompa mis juguetes, cada pedacito me recuerda lo divertido que fue jugar con ellos!'
 ];
-console.log(learnMore());
 const learnMore = () => {
     const randomIndex = Math.floor(Math.random() * curiosity.length);
     const response = curiosity[randomIndex];
