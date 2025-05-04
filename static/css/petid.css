@@ -229,7 +229,7 @@ body::-webkit-scrollbar {
 }
 
 footer {
-    margin-bottom: 150px;
+    margin-bottom: 400px;
 
     .title {
         font-weight: bold;
@@ -279,6 +279,62 @@ footer {
 @media (max-width: 1100px) {
     .swiper-container-target-section {
         width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 600px) {
+    .title-page {
+        font-size: 30px;
+    }
+
+    .swiper.slider .swiper-wrapper .swiper-slide div img {
+        max-height: 60%;
+        height: 60%;
+    }
+
+    .card .title {
+        font-size: 30px;
+    }
+
+    .card .text {
+        font-size: 16px;
+    }
+
+    .swiper-container-target-father .swiper-container-target-section .title {
+        font-size: 24px;
+    }
+
+    .swiper-container-target-father .swiper-container-target-section .swiper-container-target .swiper.target .swiper-slide {
+        font-size: 16px;
+    }
+
+    .parallax .swiper-wrapper .swiper-slide .title {
+        font-size: 40px;
+    }
+
+    .parallax .swiper-wrapper .swiper-slide .subtitle {
+        font-size: 30px;
+    }
+
+    .parallax .swiper-wrapper .swiper-slide .text p {
+        font-size: 16px;
+    }
+
+    footer .title {
+        font-size: 40px;
+    }
+
+    footer .text {
+        font-size: 30px;
+    }
+
+    footer .contact a {
+        margin: 15px;
+    }
+
+    footer .contact a img {
+        width: 70px;
+        height: 70px;
     }
 }
 
